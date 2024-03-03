@@ -1,0 +1,25 @@
+body{
+    margin:0;
+}
+
+.nav-bar__heading-link{
+    text-decoration: none;
+    color: black;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+
+}
+
+.nav-bar__list-item{
+    display:inline;
+    padding-right: 10px;
+}
+
+.nav-bar__link{
+    text-decoration: none;
+    color: black;
+}
