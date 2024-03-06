@@ -2,6 +2,10 @@ body{
     margin:0;
 }
 
+.nav-bar__heading{
+    padding-left: 30px;
+}
+
 .nav-bar__heading-link{
     text-decoration: none;
     color: black;
@@ -11,12 +15,16 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: bisque;
-
 }
 
 .nav-bar__list-item{
     display:inline;
-    padding-right: 10px;
+
+    margin-right: 20px;
+}
+
+.nav-bar__list-item:hover{
+    text-shadow: 0 0 10px rgb(222, 56, 19);
 }
 
 .nav-bar__link{
